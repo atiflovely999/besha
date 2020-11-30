@@ -1,4 +1,4 @@
-﻿<html>
+﻿<!DOCTYPE html>
 <head>
 </head>
 <body bgcolor="#005647">
@@ -12,4 +12,5 @@
 <h1 align="center"><font color="0000"><font size="5">دراسة الجدوي<input type="text"name=""><br></font></h1>
 <h1 align="center"><font color="0000"><font size="10"><input type="submit"name="login"></font></h1>
 <h1 aling="center"><font color="0000"><font size="10">تم طلب التمويل</font></h1>
-</body></html>
+</body>
+</html>
