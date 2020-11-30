@@ -1,4 +1,4 @@
-﻿<html>
+﻿<!DOCTYPE html>
 <head>
 <title>شاشة بيانات طالب التمويل</title>
 </style>
