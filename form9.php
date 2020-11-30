@@ -1,4 +1,4 @@
-﻿<html>
+﻿<!DOCTYPE html>
 <head>
 <title>طلبات  التمويل</title>
 </style>
