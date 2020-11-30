@@ -1,4 +1,4 @@
-﻿<html>
+﻿<!DOCTYPE html>
 <head>
 </head>
 <body bgcolor="#005647">
@@ -11,4 +11,6 @@
 <form action="form8.php"method"="post">
 <h1 align="center"><font color="0000"><font size="5">دراسة الجدوي<input type="text"name=""><br></font></h1>
 <h1 align="center"><font color="0000"><font size="10"><input type="submit"name="form8"></font></h1>
-</body></html>
+</body>
+                                                                                      
+</html>
