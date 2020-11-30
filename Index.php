@@ -65,10 +65,8 @@ body {
 </table>
 
 
-<?php
-?>
 
-     <br> 
+
 
 </body>
 </html>
