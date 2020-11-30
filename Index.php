@@ -1,8 +1,8 @@
-﻿<html>
+﻿<!DOCTYPE html>
 <head>
         <meta charset="utf-8">
         <meta name="viewpor"content="
-width=device-width,initial-scale=1.8">
+
 <title>صفحة البنك الرئسية</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
