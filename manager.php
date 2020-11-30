@@ -1,17 +1,56 @@
-﻿<html>
-<head>
-</head>
-<body bgcolor="#005647">
-<span><table border=10 width="50"height="20"bgcolor="fffff"align="right"></span>
-<tr>
-<tr>
-<td aling="right"><a href="form1.html">الصفحة الرئيسية</a></td>
-</tr>
-</table>
-<form action="form6.php"method"="post">
-<h1 align="center"><font color="0000"><font size="5">username<input type="text"name="ftooh"><br></font></h1>
-<h1 align="center"><font color="0000"><font size="5">password<input type="pass"name="221"><br></font></h1>
-<h1 align="center"><font color="0000"><font size="5">login<input type="submit"name="login"><marquee direction="up"scrollamount="6"><br><br><fontsize="20"><fontcolor="yellow">wellcome</fontc></fonts><br><br></marquee><br><p><br></font</h1>
-<h1 aling="right"><index.php>الانتقال الي الايميل</a></h1>
-</body
-                 ></html>
+<center>
+    <a href="index.php">الصفحه الرئيسيه</a>
+    <h1>شاشه الدخول</h1>
+<img src="7.jpg"  width=300 beight=150>
+</center>
+<br>
+<br>
+
+<center>
+<form method="post">
+    username : <input type="text" name="username" required />
+    <br>
+   password : <input type="password" name="password" required />
+<br>
+<button name="login" type="submit">login</button>
+
+</form>
+
+
+</center>
+
+
+
+<?php
+$ussename="besha";
+$password="12345";
+
+if(isset($_POST['login'])){
+
+    $getUserName=$_POST['username'];
+    $getpassword=$_POST['password'];
+
+    if($ussename=== $getUserName && $password === $password){
+session_start();
+$_SESSION['USER'] = $getUserName;
+$_SESSION['PASSWORD'] = $getpassword;
+$_SESSION['LOGIN'] =true;
+
+  header("location: report.php");
+    }else{
+        echo"<center>";
+        echo"خطأ في اسم المستخدم او كلمه المرور";
+    }
+}
+
+
+
+
+
+
+
+
+?>
+
+</body>
+</html>
