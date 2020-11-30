@@ -1,4 +1,4 @@
-﻿<html>
+﻿<!DOCTYPE html>
 <head>
 <title>انواع التمويل بالقطاع</title>
 </style>
