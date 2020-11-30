@@ -2,9 +2,10 @@
 <body>
 <img src="tt2.jpg"width="150"hight="230"style="float:right;"><img src="dd.jpg"width="150"hight="230">
 <body style="background-image:url('bb.jpg')">
-<form action="form1.html"method"="post">
+<form action="form1.php"method"="post">
 username<input type="text"name="ftooh"><br>
-pass<input type="pass"name="221"><br>
+password<input type="password"name="221"><br>
 login<input type="submit"name="login"><marquee direction="up"scrollamount="6"><br><br><fontsize="20"><fontcolor="yellow">wellcome</fontc></fonts><br><br></marquee><br><p><br
-<h1 aling="right"><a href="alfa2i72222@gmail.com">الانتقال الي الايميل</a></h1>
-</body></html>
+<h1 aling="right"><a href="form4.php">الانتقال الي الايميل</a></h1>
+</body>
+</html>
